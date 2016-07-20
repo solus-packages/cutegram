@@ -1,6 +1,6 @@
 name       : cutegram
 version    : 2.7.1
-release    : 1
+release    : 2
 source     :
     - https://github.com/Aseman-Land/Cutegram/archive/v2.7.1-stable.tar.gz : f1cfc6bd3a1d33c2348f23ea43d923419b33576059791a071f2780db11059cf4
 license    : GPL-3.0
