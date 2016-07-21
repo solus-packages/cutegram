@@ -2,10 +2,11 @@
     <Source>
         <Name>cutegram</Name>
         <Packager>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua.strobl@outlook.com</Email>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>sunnyflunk@gmail.com</Email>
         </Packager>
         <License>GPL-3.0</License>
+        <PartOf>network.im</PartOf>
         <Summary xml:lang="en">Cutegram is a telegram client by Aseman Land.</Summary>
         <Description xml:lang="en">Cutegram is a telegram client by Aseman Land.
 </Description>
@@ -18,20 +19,27 @@
 </Description>
         <PartOf>network.im</PartOf>
         <Files>
-            <Path fileType="data">/usr/share/pixmaps</Path>
-            <Path fileType="data">/usr/share/icons</Path>
-            <Path fileType="data">/usr/share/cutegram</Path>
-            <Path fileType="data">/usr/share/applications</Path>
             <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="data">/usr/share/applications/Cutegram.desktop</Path>
+            <Path fileType="data">/usr/share/cutegram</Path>
+            <Path fileType="data">/usr/share/icons/cutegram.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/128x128/apps/cutegram.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/16x16/apps/cutegram.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/256x256/apps/cutegram.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/32x32/apps/cutegram.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/48x48/apps/cutegram.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/64x64/apps/cutegram.png</Path>
+            <Path fileType="data">/usr/share/icons/hicolor/96x96/apps/cutegram.png</Path>
+            <Path fileType="data">/usr/share/pixmaps/cutegram.png</Path>
         </Files>
     </Package>
     <History>
-        <Update release="1">
-            <Date>2016-01-18</Date>
+        <Update release="4">
+            <Date>2016-07-21</Date>
             <Version>2.7.1</Version>
             <Comment>Packaging update</Comment>
-            <Name>Joshua Strobl</Name>
-            <Email>joshua.strobl@outlook.com</Email>
+            <Name>Peter O&apos;Connor</Name>
+            <Email>sunnyflunk@gmail.com</Email>
         </Update>
     </History>
 </PISI>
