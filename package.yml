@@ -1,6 +1,6 @@
 name       : cutegram
 version    : 2.7.1
-release    : 4
+release    : 5
 source     :
     - https://github.com/Aseman-Land/Cutegram/archive/v2.7.1-stable.tar.gz : f1cfc6bd3a1d33c2348f23ea43d923419b33576059791a071f2780db11059cf4
     - https://github.com/Aseman-Land/aseman-qt-tools/archive/v1.0.0-stable.tar.gz : 44ad93a205921ed920b7dbcca1ae4d8150d001b06d6f8f01e46da02cc607ece2
@@ -24,6 +24,6 @@ build      : |
     cd build
     qmake -r .. PREFIX=$installdir/usr
     %make
-install    : |
+install    : |-
     cd build
     %make_install
